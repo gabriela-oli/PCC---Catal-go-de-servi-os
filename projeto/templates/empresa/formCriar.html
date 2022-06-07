@@ -1,0 +1,25 @@
+{% extends 'head.html' %}
+
+{% block content %}
+
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                Produto
+            </div>
+            <div class="card-body">
+                <form action="{% url 'criar' %}" method="post">
+                    {% csrf_token %}
+                    {{form.as_p}}
+                    <input type="submit" value="Salvar">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+

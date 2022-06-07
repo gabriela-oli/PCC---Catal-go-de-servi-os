@@ -1,0 +1,116 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    margin: 0;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+.butao-main{
+    margin: 25px;
+    color: aliceblue;
+    background-color: #0C8AED;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration:none;
+}
+
+.butao-main:hover{
+    margin: 25px;
+    color:  #0C8AED;
+    background-color: aliceblue;
+    padding: 10px 15px ;
+    border-radius: 10px;
+    text-decoration:none;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    color: aliceblue;
+    margin-top: 100px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(0,0, 0, 0.8);
+    border-radius: 50px;
+}
+.centralizar{
+    background-image : url('../static/images/guanambi.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign{
+    text-decoration: none;
+}
+.entrar-cadastro{
+    background-color: #0C8AED;
+    color: aliceblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.entrar-cadastro:hover{
+    background-color: aliceblue;
+    color: #0C8AED;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login, .sign{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.login label{
+    display: flex;
+    align-items: center;
+}
+.login input,select,textarea{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.signup label{
+    display: flex;
+    align-items: center;
+}
+.signup input{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.cadastro-cidade{
+    margin-top: 25px;
+}

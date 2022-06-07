@@ -1,0 +1,34 @@
+{% extends 'head.html' %}
+
+{% block content %}
+
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                Produto
+            </div>
+            <div class="card-body">
+                
+
+
+
+
+                <strong>Nome da Empresa</strong>
+                <p>{{ empresa.nome }}</p>
+                <strong>Endereço</strong>
+                <p>{{ empresa.endereco }}</p>
+                <strong>CNPJ</strong>
+                <p>{{ empresa.cnpj }}</p>
+                <strong>Categoria</strong>
+                <p>{{ empresa.categoria }}</p>
+                <a href="/empresa"><i></i><button type = "button"
+                    class = "btn mb-1 btn-success" 
+                    >Voltar</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
